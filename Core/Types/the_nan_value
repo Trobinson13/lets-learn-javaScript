@@ -1,0 +1,15 @@
+/**
+ * The NaN Value
+ */
+
+// dividing by zero gives "not a number"
+
+let x = 0 / 0;
+console.log(x); //NaN
+
+//NaN is never equal to itself
+NaN === NaN // false
+
+isNaN(23) // false (its a number)
+
+isNaN("Twenty Three") // true (it's not a number)

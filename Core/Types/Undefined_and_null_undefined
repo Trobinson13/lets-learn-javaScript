@@ -1,0 +1,16 @@
+/**
+ * Undefined and Null Undefined
+*/
+
+//  Variables created without being assigned a value are "undefined"
+let life_goals;
+console.log(typeof life_goals); //undefined
+// Can think of "undefined" as the default value to anything not assigned a value
+
+//  null represents the absence of a value
+let myNullValue = null;
+console.log(typeof myNullValue); //object
+
+null == undefined //true
+null === undefined //false
+

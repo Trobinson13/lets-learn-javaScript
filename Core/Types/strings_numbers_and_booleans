@@ -1,0 +1,30 @@
+/**
+ * Strings, Numbers, and Booleans
+*/
+
+// A string is always wrapped in 'single' or "double quotes"
+let company = "Stark Industries";
+let google_search = 'How to learn JavaScript in a day';
+
+console.log(google_search.length) //32
+
+/**
+ *  Boolean
+ */
+//Boolean only supports 2 options
+let isCold = true;
+let isHot = false;
+
+/**
+ *  Number
+ */
+let numberOfMonths = 12;
+let temperature = 17.2;
+
+1 + 2; // add
+9 / 3; // divide
+1 * 5; // multiply
+9 - 5; // subtract
+10 % 4; // modulus (division remainder)
+
+Math.round(5.7) // 6
