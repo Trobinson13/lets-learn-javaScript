@@ -1,0 +1,23 @@
+//Basics 2
+
+/**
+  Naming rules
+*/
+let name = "FooBar"; // Valid
+console.log(name);
+
+let $taxRate = 3.50; //valid
+console.log($taxRate);
+
+let _id = 23; //valid
+console.log(_id);
+
+//EXAMPLE OF ERROR
+//let 2Company = "BarFoo"; //invalid
+
+/**
+//semicolons
+*/
+// not needed but it is common practice
+let firstName = "Billy"
+console.log(firstName)

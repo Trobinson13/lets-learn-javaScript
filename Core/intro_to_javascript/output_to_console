@@ -1,0 +1,14 @@
+//basic output
+console.log("This is a message");
+
+//output with a varible\
+username = "John.Doe"
+console.log("Username: " + username);
+
+//warnings
+console.warn("Need to construct more Pylons");
+
+//errors
+console.error("Could not find the droids you were looking for");
+
+console.trace()

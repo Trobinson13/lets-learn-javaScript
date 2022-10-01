@@ -1,0 +1,3 @@
+let company = "doofenshmirtz evil incorporated";
+console.log(typeof company); //expecting string
+
