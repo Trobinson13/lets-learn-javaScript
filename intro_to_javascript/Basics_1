@@ -1,0 +1,33 @@
+//Basics 1
+//Variables
+
+
+//Var type Let
+let firstName = "needsChanged";
+console.log(firstName);
+
+firstName = "Tre";
+console.log(firstName);
+
+/** 
+//demonstration of the const var type
+// will fail due to const type being immutable
+
+const firstName = "Tre";
+console.log(firstName);
+
+firstName = "Changed";
+console.log(firstName);
+*/
+
+var lastName = "needsChanged";
+lastName = "Robinson";
+
+
+//Case Sensitivity
+
+let password;
+// Is not the same as
+let pasSword;
+// or
+let PASSWORD;
