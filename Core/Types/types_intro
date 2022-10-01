@@ -1,3 +1,35 @@
+/** 
+ * Intro to Types
+*/
+
+/**
+ * Primitive Types are:
+ *  undefined
+ *  null
+ *  boolean
+ *  number
+ *  string
+ *  symbol
+ */
+
+// Get the Type of a value
 let company = "doofenshmirtz evil incorporated";
-console.log(typeof company); //expecting string
+console.log("Type of company is: " + typeof company); //expecting string
+
+/**
+ * Dynamic Types
+ */
+
+// because we assign a string
+let name = "Sun Wukong";
+// javaScript knows its a string
+console.log("Type of name is: " + typeof name);
+
+// You can change variable type at any time
+console.log("Name is: " + name);
+console.log("Type of name is: " + typeof name);
+
+name = 7;
+console.log("Name is: " + name);
+console.log("Type of name is: " + typeof name);
 

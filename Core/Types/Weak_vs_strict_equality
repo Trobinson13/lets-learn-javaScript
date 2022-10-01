@@ -1,0 +1,24 @@
+/**
+* Weak vs Strict Equality Operator
+* 
+*   Two ways to check if values Equal each other 
+*/
+
+/**
+ * Weak Typing  "=="
+ */
+
+// forces values to same type before comparing values
+let x = 2;
+let y = "2";
+
+console.log("Boolean value if (x == y) is: " + (x == y));
+
+/**
+ * Strict Typing  "==="
+ */
+
+// compares both values and types
+let a = 3;
+let b = "3";
+console.log("Boolean value if (a === b) is: " + (a === b));
