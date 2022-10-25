@@ -5,7 +5,6 @@
 //Var type Let
 let firstName = "needsChanged";
 console.log(firstName);
-
 firstName = "Tre";
 console.log(firstName);
 
@@ -15,13 +14,14 @@ console.log(firstName);
 
 const firstName = "Tre";
 console.log(firstName);
-
 firstName = "Changed";
 console.log(firstName);
 */
 
 var lastName = "needsChanged";
+console.log(lastName);// needsChanged
 lastName = "Robinson";
+console.log(lastName); // Robinson
 
 
 //Case Sensitivity
